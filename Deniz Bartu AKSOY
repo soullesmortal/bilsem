@@ -1,0 +1,7 @@
+df=int(input("bir sayı giriniz:"))
+if df>=0 and df!=0:
+    print("sayı pozitif")
+elif df==0:
+    print("sayı sıfır")
+elif df<=0:
+    print("sayı negatif")
